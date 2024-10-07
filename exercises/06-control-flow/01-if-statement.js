@@ -17,3 +17,13 @@ let isBuyingDrink = true; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const burgerPrice = 7.00;
+const drinkPrice = 1.99;
+const totalCost = burgerPrice + drinkPrice;
+if (isBuyingDrink) {
+    total += drink;
+} else {
+    total += 0;
+}
+console.log(total);
