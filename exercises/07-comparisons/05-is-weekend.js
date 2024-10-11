@@ -12,4 +12,3 @@ let day = "Saturday";
 
 let isWeekend = (day === "Saturday" || day === "Sunday");
 console.log(isWeekend);
-

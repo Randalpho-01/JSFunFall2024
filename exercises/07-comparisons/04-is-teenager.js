@@ -12,6 +12,6 @@ let age = 14; // e.g.
 
 
 
-if isTeenager = age > 12 && age < 20;
+let isTeenager = age > 12 && age < 20;
 console.log(isTeenager);
 

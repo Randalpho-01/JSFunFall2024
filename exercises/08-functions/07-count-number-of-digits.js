@@ -10,3 +10,8 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+  const countNumberOfDigits = (num) => {
+    return String(Math.abs(num)).length;
+  };
+  console.log(countNumberOfDigits);
