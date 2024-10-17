@@ -4,3 +4,5 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const restaurants = ["Taco Bell", "Pizza Hut", "McDonald's"];
