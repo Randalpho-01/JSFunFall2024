@@ -11,3 +11,9 @@ let string = "racecar";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let cleanString = string.replace(/\s/g, "").toLowerCase();
+let reversedString = cleanString.split("").reverse().join("");
+let isPalindrome = cleanString === reversedString;
+
+console.log(isPalindrome);

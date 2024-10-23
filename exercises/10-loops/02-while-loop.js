@@ -8,3 +8,10 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let num = 10;
+
+while (num <= 100) {
+  console.log(num);
+  num += 10;
+}
