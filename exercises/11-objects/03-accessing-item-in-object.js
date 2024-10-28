@@ -11,3 +11,6 @@ const clothes = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const hat = clothes.hat;
+console.log(hat);
