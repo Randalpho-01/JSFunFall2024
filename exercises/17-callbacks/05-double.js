@@ -34,6 +34,9 @@ const doubleArray = (originalArray, doubleNumber) => {
  
   return result;
 };
+ 
+console.log(doubleArray([1, 2, 3], doubleNumber));
+ ;
 
 // Uncomment me to test your answer in Quokka
 // doubleArray([1, 2, 3], doubleNumber);

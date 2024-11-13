@@ -24,3 +24,9 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+links.forEach(link => {
+  htmlStr += `<a href="${link}" target="_blank">${link}</a><br>`; 
+});
+
+console.log(htmlStr);
