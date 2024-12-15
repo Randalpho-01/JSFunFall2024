@@ -14,10 +14,7 @@
    * You can also make the "x" icon dismiss the notification.
    */
   // Write your answer here
-})();
 
-
-(function () {
   const notification = document.getElementById('notification');
   const notificationMessage = document.getElementById('notificationMessage');
   const selectButtons = document.querySelectorAll('.button');

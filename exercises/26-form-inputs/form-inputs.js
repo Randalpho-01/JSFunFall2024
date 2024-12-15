@@ -47,6 +47,7 @@ emailInput.addEventListener('input', function() {
   emailDisplay.textContent = emailInput.value;
 });
 
+
 titleSelect.addEventListener('change', function() {
   titleDisplay.textContent = titleSelect.options[titleSelect.selectedIndex].text;
 });
