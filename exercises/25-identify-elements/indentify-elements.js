@@ -15,3 +15,25 @@
    */
   // Write your answer here
 })();
+
+
+(function () {
+  const notification = document.getElementById('notification');
+  const notificationMessage = document.getElementById('notificationMessage');
+  const selectButtons = document.querySelectorAll('.button');
+  const closeButton = document.querySelector('.delete');
+
+  closeButton.addEventListener('click', () => {
+    notification.style.display = 'none';
+  });
+
+  selectButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const planName = button.id;
+      notificationMessage.textContent = `Thank you for purchasing the ${planName} plan!`;
+      notification.style.backgroundColor = 'aquamarine';
+      notification.style.display = 'block';
+    });
+  });
+})();
+

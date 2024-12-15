@@ -23,4 +23,28 @@
    * but you can switch up the HTML so that it uses inline styles if you like.
    */
   // Write your answer here
+
+
+  document.getElementById("acceptCookies").addEventListener("click", function() {
+    document.getElementById("cookiePopup").style.display = "none";
+  });
+  
+  document.getElementById("toggleComments").addEventListener("click", function() {
+    const commentsSection = document.getElementById("comments");
+    commentsSection.style.display = (commentsSection.style.display === "none") ? "block" : "none";
+  });
+    
+
+  document.getElementById("toggleComments").addEventListener("click", function() {
+    const commentsSection = document.getElementById("comments");
+    const toggleButton = this;
+  
+    if (commentsSection.style.display === "none") {
+      commentsSection.style.display = "block";
+      toggleButton.textContent = "Hide Comments";
+    } else {
+      commentsSection.style.display = "none";
+      toggleButton.textContent = "View Comments";
+    }
+  });
 })();
